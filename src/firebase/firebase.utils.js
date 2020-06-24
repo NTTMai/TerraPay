@@ -22,7 +22,7 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
 
   if (!snapShot.exists) {
     const { displayName, email } = userAuth;
-    const terraWallet = "0x123lkjasdf";
+    const terraWallet = "terra1xmscr6yzp78w6zc2gdxjgyafjw4h6ec90h5mxw";
     const createdAt = new Date();
 
     try {
